@@ -206,8 +206,8 @@
 
 .footer-links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;              
     width: 100%;
     margin-bottom: 35px;      
 }
@@ -238,8 +238,7 @@
 }
 
 .footer-info .copyright {
-    margin-top: 25px;
+    margin-top: 25px;          
     font-size: 12px;
     text-align: center;
 }
-
