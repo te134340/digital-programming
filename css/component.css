@@ -118,12 +118,6 @@
 }
 
 .image-circle img { width: 100%; height: 100%; object-fit: cover; }
-.food-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 
 .food-card h3 {
   font-size: 1.15rem;
@@ -190,43 +184,44 @@
   color: #cccccc;
 }
 
-/* Netflix Footer 컴포넌트 */
 .netflix-footer {
     background-color: #141414; 
     color: #808080;            
-    padding: 60px 60px;       
+    padding: 60px 4%;
     font-size: 14px;
     line-height: 1.8;          
     box-sizing: border-box;
 }
+
 .footer-sns {
     margin-bottom: 30px;      
 }
+
 .footer-sns .sns-text {
     color: #ffffff;            
     margin-right: 35px;        
     font-size: 16px;
     opacity: 0.8;              
 }
+
 .footer-links {
-    display: table;            
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     width: 100%;
-    max-width: 900px;         
     margin-bottom: 35px;      
 }
-.link-col {
-    display: table-cell;      
-    width: 25%;                
-    vertical-align: top;
-}
+
 .link-col span {
     display: block;
     color: #808080;
     margin-bottom: 12px;      
 }
+
 .footer-service {
     margin-bottom: 35px;       
 }
+
 .service-btn {
     background: transparent;    
     color: #808080;            
@@ -235,12 +230,16 @@
     font-size: 13px;
     cursor: default;           
 }
+
 .footer-info p {
     margin: 4px 0;             
     font-size: 12px;           
     word-break: keep-all;      
 }
+
 .footer-info .copyright {
-    margin-top: 25px;          
+    margin-top: 25px;
     font-size: 12px;
+    text-align: center;
 }
+
